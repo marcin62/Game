@@ -9,13 +9,12 @@ gcc -o serwer server.c -lrt -lpthread -lncurses
 ./serwer
 ```
 Player:
-
+```
 gcc -o player player.c -lrt -lpthread -lncurses
-
 ./player
-
+```
 Bot:
-
+```
 gcc -o bot bot.c -lrt -lpthead -lncurses
-
 ./bot
+```
