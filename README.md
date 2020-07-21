@@ -1,7 +1,7 @@
 # Game
 Language: C
 # Multiproccesing game 
-At first you suppose to instal lncurses library on your ubuntu to make this game work on your pc
+At first you suppose to instal ncurses library on your ubuntu to make this game work on your pc
 # How to compile and run
 Serwer:
 ```
