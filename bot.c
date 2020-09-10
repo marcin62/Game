@@ -107,6 +107,7 @@ int main(void)
     }
     //---Żądanie ID od serwera
     int ID_SHM = -1;
+    clientID->ID_client = -1;
     sem_post(client_id_out_semafor);
     sem_wait(client_id_in_semafor);
     if (clientID->ID_client >= 0)
